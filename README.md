@@ -1,5 +1,4 @@
 # TrainingApp
-IN ENGLISH
 TrainingApp is an Android application designed to help users manage and track their daily exercises. The app displays a list of exercises for the day, allowing users to easily follow their workout routine.
 
 ## Features
@@ -18,7 +17,7 @@ TrainingApp is an Android application designed to help users manage and track th
 
 ### README.md (Suomeksi)
 
-```markdown
+
 # TrainingApp
 
 TrainingApp on Android-sovellus, joka auttaa käyttäjiä hallitsemaan ja seuraamaan päivittäisiä harjoituksiaan. Sovellus näyttää päivän harjoitukset listana, mikä helpottaa harjoitusrutiinin seuraamista.
