@@ -1,11 +1,13 @@
 package com.example.TrainingApp
 
 import android.content.Context
+import android.view.Gravity
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseExpandableListAdapter
 import android.widget.TextView
+import androidx.compose.ui.platform.InspectableModifier
 import org.json.JSONArray
 import org.json.JSONObject
 
@@ -44,6 +46,7 @@ class CustomExpandableListAdapter(
         }
         val expandedListTextView = convertView!!.findViewById<TextView>(R.id.expandedListItem)
         expandedListTextView.text = expandedListText
+        expandedListTextView.setPadding(100, 30, 0, 30)
         return convertView
     }
 
@@ -83,6 +86,7 @@ class CustomExpandableListAdapter(
         val listTitleTextView = convertView!!.findViewById<TextView>(R.id.listTitle)
         listTitleTextView.setTypeface(null, android.graphics.Typeface.BOLD)
         listTitleTextView.text = listTitle
+        listTitleTextView.setPadding(100, 30, 0, 30)
         return convertView
     }
 
